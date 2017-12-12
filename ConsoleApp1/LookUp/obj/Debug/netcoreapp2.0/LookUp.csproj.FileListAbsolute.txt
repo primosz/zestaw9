@@ -1,0 +1,10 @@
+C:\Users\primosz\Desktop\dotnet\zestaw9\ConsoleApp1\LookUp\bin\Debug\netcoreapp2.0\LookUp.deps.json
+C:\Users\primosz\Desktop\dotnet\zestaw9\ConsoleApp1\LookUp\bin\Debug\netcoreapp2.0\LookUp.runtimeconfig.json
+C:\Users\primosz\Desktop\dotnet\zestaw9\ConsoleApp1\LookUp\bin\Debug\netcoreapp2.0\LookUp.runtimeconfig.dev.json
+C:\Users\primosz\Desktop\dotnet\zestaw9\ConsoleApp1\LookUp\bin\Debug\netcoreapp2.0\LookUp.dll
+C:\Users\primosz\Desktop\dotnet\zestaw9\ConsoleApp1\LookUp\bin\Debug\netcoreapp2.0\LookUp.pdb
+C:\Users\primosz\Desktop\dotnet\zestaw9\ConsoleApp1\LookUp\obj\Debug\netcoreapp2.0\LookUp.csproj.CoreCompileInputs.cache
+C:\Users\primosz\Desktop\dotnet\zestaw9\ConsoleApp1\LookUp\obj\Debug\netcoreapp2.0\LookUp.AssemblyInfoInputs.cache
+C:\Users\primosz\Desktop\dotnet\zestaw9\ConsoleApp1\LookUp\obj\Debug\netcoreapp2.0\LookUp.AssemblyInfo.cs
+C:\Users\primosz\Desktop\dotnet\zestaw9\ConsoleApp1\LookUp\obj\Debug\netcoreapp2.0\LookUp.dll
+C:\Users\primosz\Desktop\dotnet\zestaw9\ConsoleApp1\LookUp\obj\Debug\netcoreapp2.0\LookUp.pdb

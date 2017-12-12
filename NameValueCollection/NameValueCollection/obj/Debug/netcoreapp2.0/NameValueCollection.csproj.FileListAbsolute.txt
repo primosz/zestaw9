@@ -1,0 +1,11 @@
+C:\Users\primosz\Desktop\dotnet\zestaw9\NameValueCollection\NameValueCollection\bin\Debug\netcoreapp2.0\NameValueCollection.deps.json
+C:\Users\primosz\Desktop\dotnet\zestaw9\NameValueCollection\NameValueCollection\bin\Debug\netcoreapp2.0\NameValueCollection.runtimeconfig.json
+C:\Users\primosz\Desktop\dotnet\zestaw9\NameValueCollection\NameValueCollection\bin\Debug\netcoreapp2.0\NameValueCollection.runtimeconfig.dev.json
+C:\Users\primosz\Desktop\dotnet\zestaw9\NameValueCollection\NameValueCollection\bin\Debug\netcoreapp2.0\NameValueCollection.dll
+C:\Users\primosz\Desktop\dotnet\zestaw9\NameValueCollection\NameValueCollection\bin\Debug\netcoreapp2.0\NameValueCollection.pdb
+C:\Users\primosz\Desktop\dotnet\zestaw9\NameValueCollection\NameValueCollection\obj\Debug\netcoreapp2.0\NameValueCollection.csprojResolveAssemblyReference.cache
+C:\Users\primosz\Desktop\dotnet\zestaw9\NameValueCollection\NameValueCollection\obj\Debug\netcoreapp2.0\NameValueCollection.csproj.CoreCompileInputs.cache
+C:\Users\primosz\Desktop\dotnet\zestaw9\NameValueCollection\NameValueCollection\obj\Debug\netcoreapp2.0\NameValueCollection.AssemblyInfoInputs.cache
+C:\Users\primosz\Desktop\dotnet\zestaw9\NameValueCollection\NameValueCollection\obj\Debug\netcoreapp2.0\NameValueCollection.AssemblyInfo.cs
+C:\Users\primosz\Desktop\dotnet\zestaw9\NameValueCollection\NameValueCollection\obj\Debug\netcoreapp2.0\NameValueCollection.dll
+C:\Users\primosz\Desktop\dotnet\zestaw9\NameValueCollection\NameValueCollection\obj\Debug\netcoreapp2.0\NameValueCollection.pdb

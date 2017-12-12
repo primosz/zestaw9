@@ -1,0 +1,11 @@
+C:\Users\primosz\Desktop\dotnet\zestaw9\Solution\Solution\bin\Debug\netcoreapp2.0\Hashtable.deps.json
+C:\Users\primosz\Desktop\dotnet\zestaw9\Solution\Solution\bin\Debug\netcoreapp2.0\Hashtable.runtimeconfig.json
+C:\Users\primosz\Desktop\dotnet\zestaw9\Solution\Solution\bin\Debug\netcoreapp2.0\Hashtable.runtimeconfig.dev.json
+C:\Users\primosz\Desktop\dotnet\zestaw9\Solution\Solution\bin\Debug\netcoreapp2.0\Hashtable.dll
+C:\Users\primosz\Desktop\dotnet\zestaw9\Solution\Solution\bin\Debug\netcoreapp2.0\Hashtable.pdb
+C:\Users\primosz\Desktop\dotnet\zestaw9\Solution\Solution\obj\Debug\netcoreapp2.0\Hashtable.csprojResolveAssemblyReference.cache
+C:\Users\primosz\Desktop\dotnet\zestaw9\Solution\Solution\obj\Debug\netcoreapp2.0\Hashtable.csproj.CoreCompileInputs.cache
+C:\Users\primosz\Desktop\dotnet\zestaw9\Solution\Solution\obj\Debug\netcoreapp2.0\Hashtable.AssemblyInfoInputs.cache
+C:\Users\primosz\Desktop\dotnet\zestaw9\Solution\Solution\obj\Debug\netcoreapp2.0\Hashtable.AssemblyInfo.cs
+C:\Users\primosz\Desktop\dotnet\zestaw9\Solution\Solution\obj\Debug\netcoreapp2.0\Hashtable.dll
+C:\Users\primosz\Desktop\dotnet\zestaw9\Solution\Solution\obj\Debug\netcoreapp2.0\Hashtable.pdb
