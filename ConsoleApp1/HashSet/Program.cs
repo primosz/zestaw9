@@ -14,7 +14,7 @@ class Program
         bool a = set.Overlaps(array2);
         bool b = set.Overlaps(array3);
 
-        // Display results.
+        // wyswietl
         Console.WriteLine(a);
         Console.WriteLine(b);
         Console.WriteLine(string.Join("", set));
@@ -25,7 +25,7 @@ class Program
         var hash = new HashSet<char>(array4);
         hash.SymmetricExceptWith(array5);
 
-        // Write char array.
+        // wyswietl jako tablice
         Console.WriteLine(hash.ToArray());
     }
 }

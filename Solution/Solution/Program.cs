@@ -5,7 +5,7 @@ class Program
 {
     static Hashtable GetHashtable()
     {
-        // Create and return new Hashtable.
+        
         Hashtable hashtable = new Hashtable();
         hashtable.Add(1000,"Tysiąc");
         hashtable.Add(50, "Pięćdziesiąt");
@@ -17,38 +17,37 @@ class Program
     {
         Hashtable hashtable = GetHashtable();
 
-        // Display the keys.
+        // wyswietl klucze
         foreach (int key in hashtable.Keys)
         {
             Console.WriteLine(key);
         }
 
-        // Display the values.
+        // wyswietl wartosci
         foreach (string wart in hashtable.Values)
         {
             Console.WriteLine(wart);
         }
 
-        // See if the Hashtable contains this key.
+        // sprawdz czy zaiwera
         Console.WriteLine(hashtable.ContainsKey(100));
 
-        // Test the Contains method.
-        // ... It works the same way.
+        // to samo
         Console.WriteLine(hashtable.Contains(600));
 
-        // Get value of Area with indexer.
+        // wartosc pod tym indexem
         string value = (string)hashtable[50];
 
-        // Write the value of Area.
+        // wyswietl
         Console.WriteLine(value);
 
         int count = hashtable.Count;
         Console.WriteLine(count);
 
-        // Clear the Hashtable.
+        //kasuj
         hashtable.Clear();
 
-        // Get Count of Hashtable again.
+        // rozmiar
         Console.WriteLine(hashtable.Count);
     }
 }
