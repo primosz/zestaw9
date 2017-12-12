@@ -7,57 +7,48 @@ namespace LookUp
     class Program
     {
 
-        class Package
+        class Samochod
         {
-            public string Company;
-            public double Weight;
-            public long TrackingNumber;
+            public string Marka;
+            public double Silnik;
+            public long KM;
         }
         static void Main(string[] args)
         {
-            // Create a list of Packages to put into a Lookup data structure.
-            List<Package> packages = new List<Package> { new Package { Company = "Coho Vineyard", Weight = 25.2, TrackingNumber = 89453312L },
-                                                 new Package { Company = "Lucerne Publishing", Weight = 18.7, TrackingNumber = 89112755L },
-                                                 new Package { Company = "Wingtip Toys", Weight = 6.0, TrackingNumber = 299456122L },
-                                                 new Package { Company = "Contoso Pharmaceuticals", Weight = 9.3, TrackingNumber = 670053128L },
-                                                 new Package { Company = "Wide World Importers", Weight = 33.8, TrackingNumber = 4665518773L } };
+            
+            List<Samochod> packages = new List<Samochod> { new Samochod { Marka = "Volvo", Silnik = 2.5, KM = 165 },
+                                                 new Samochod { Marka = "Volkswagen", Silnik = 1.6, KM = 98 },
+                                                 new Samochod { Marka = "Audi", Silnik = 6.0, KM = 312 },
+                                                 new Samochod { Marka = "Lamborghini", Silnik = 4.5, KM = 280},
+                                                 new Samochod { Marka = "Ferrari", Silnik = 8.2, KM = 515 } };
 
-            // Create a Lookup to organize the packages. Use the first character of Company as the key value.
-            // Select Company appended to TrackingNumber for each element value in the Lookup.
-            Lookup<char, string> lookup = (Lookup<char, string>)packages.ToLookup(p => Convert.ToChar(p.Company.Substring(0, 1)),
-                                                            p => p.Company + " " + p.TrackingNumber);
+     
+            Lookup<char, string> lookup = (Lookup<char, string>)packages.ToLookup(p => Convert.ToChar(p.Marka.Substring(0, 1)),
+                                                            p => p.Marka + " " + p.Silnik);
 
-            // Iterate through each IGrouping in the Lookup and output the contents.
-            foreach (IGrouping<char, string> packageGroup in lookup)
+          
+            foreach (IGrouping<char, string> grupaAut in lookup)
             {
-                // Print the key value of the IGrouping.
-                Console.WriteLine(packageGroup.Key);
-                // Iterate through each value in the IGrouping and print its value.
-                foreach (string str in packageGroup)
+               
+                Console.WriteLine(grupaAut.Key);
+            
+                foreach (string str in grupaAut)
                     Console.WriteLine("    {0}", str);
             }
 
-            
-
-            // Get the number of key-collection pairs in the Lookup.
+        
+           
             int count = lookup.Count;
+            
+            IEnumerable<string> cgroup = lookup['V'];
 
-            // Select a collection of Packages by indexing directly into the Lookup.
-            IEnumerable<string> cgroup = lookup['C'];
-
-            // Output the results.
-            Console.WriteLine("\nPackages that have a key of 'C':");
+        
+            Console.WriteLine("\nSamochody zaczynające się na 'V':");
             foreach (string str in cgroup)
                 Console.WriteLine(str);
 
-            // This code produces the following output:
-            //
-            // Packages that have a key of 'C'
-            // Coho Vineyard 89453312
-            // Contoso Pharmaceuticals 670053128
-
-            // Determine if there is a key with the value 'G' in the Lookup.
-            bool hasG = lookup.Contains('G');
+           
+            Console.WriteLine(lookup.Contains('r'));
         }
     }
 }

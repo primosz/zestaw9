@@ -8,3 +8,4 @@ C:\Users\primosz\Desktop\dotnet\zestaw9\ConsoleApp1\LookUp\obj\Debug\netcoreapp2
 C:\Users\primosz\Desktop\dotnet\zestaw9\ConsoleApp1\LookUp\obj\Debug\netcoreapp2.0\LookUp.AssemblyInfo.cs
 C:\Users\primosz\Desktop\dotnet\zestaw9\ConsoleApp1\LookUp\obj\Debug\netcoreapp2.0\LookUp.dll
 C:\Users\primosz\Desktop\dotnet\zestaw9\ConsoleApp1\LookUp\obj\Debug\netcoreapp2.0\LookUp.pdb
+C:\Users\primosz\Desktop\dotnet\zestaw9\ConsoleApp1\LookUp\obj\Debug\netcoreapp2.0\LookUp.csprojResolveAssemblyReference.cache
