@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 class Program
 {
@@ -16,5 +17,15 @@ class Program
         // Display results.
         Console.WriteLine(a);
         Console.WriteLine(b);
+        Console.WriteLine(string.Join("", set));
+
+        char[] array4 = { 'a', 'b', 'c' };
+        char[] array5 = { 'b', 'c', 'd' };
+
+        var hash = new HashSet<char>(array4);
+        hash.SymmetricExceptWith(array5);
+
+        // Write char array.
+        Console.WriteLine(hash.ToArray());
     }
 }

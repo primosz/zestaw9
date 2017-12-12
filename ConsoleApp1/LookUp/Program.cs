@@ -37,16 +37,7 @@ namespace LookUp
                     Console.WriteLine("    {0}", str);
             }
 
-            // This code produces the following output:
-            //
-            // C
-            //     Coho Vineyard 89453312
-            //     Contoso Pharmaceuticals 670053128
-            // L
-            //     Lucerne Publishing 89112755
-            // W
-            //     Wingtip Toys 299456122
-            //     Wide World Importers 4665518773
+            
 
             // Get the number of key-collection pairs in the Lookup.
             int count = lookup.Count;

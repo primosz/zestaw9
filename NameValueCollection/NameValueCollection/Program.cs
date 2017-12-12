@@ -20,5 +20,17 @@ class Program
         {
             Console.WriteLine(key);
         }
+
+        Console.WriteLine(collection["Sam"]); // <-- Same as GetValues
+        Console.WriteLine(collection["X"] == null); // <-- Not found
+                                                    // Write whether the collection has keys.
+        Console.WriteLine(collection.HasKeys());
+
+        // Write the first key.
+        Console.WriteLine(collection.GetKey(0));
+
+        // Get the first value.
+        string value = collection.Get(0);
+        Console.WriteLine(value);
     }
 }
