@@ -8,3 +8,4 @@ C:\Users\primosz\Desktop\dotnet\zestaw9\ConsoleApp1\SortedSet\obj\Debug\netcorea
 C:\Users\primosz\Desktop\dotnet\zestaw9\ConsoleApp1\SortedSet\obj\Debug\netcoreapp2.0\SortedSet.AssemblyInfo.cs
 C:\Users\primosz\Desktop\dotnet\zestaw9\ConsoleApp1\SortedSet\obj\Debug\netcoreapp2.0\SortedSet.dll
 C:\Users\primosz\Desktop\dotnet\zestaw9\ConsoleApp1\SortedSet\obj\Debug\netcoreapp2.0\SortedSet.pdb
+C:\Users\primosz\Desktop\dotnet\zestaw9\ConsoleApp1\SortedSet\obj\Debug\netcoreapp2.0\SortedSet.csprojResolveAssemblyReference.cache

@@ -7,8 +7,8 @@ class Program
     {
         NameValueCollection collection = new NameValueCollection();
         collection.Add("Piotr", "KFC");
-        collection.Add("Ania", "MCDonald");
-        collection.Add("Ania", "BurgerKing");
+        collection.Add("Paweł", "MCDonald");
+        collection.Add("Paweł", "BurgerKing");
         collection.Add("Piotr", "KEBAB");
         return collection;
     }
@@ -16,11 +16,18 @@ class Program
     static void Main()
     {
         NameValueCollection collection = GetCollection();
-        foreach (string key in collection.AllKeys) // <-- bez duplikatow
+       // foreach (string key in collection.AllKeys) // <-- bez duplikatow
+       // {
+        //    Console.WriteLine(key);
+       // }
+
+        foreach (string key in collection)
         {
-            Console.WriteLine(key);
+            Console.WriteLine("{0} {1}", key, collection[key]);
         }
 
+        Console.WriteLine();
+        Console.WriteLine();
         Console.WriteLine(collection["Piotr"]); // <-- to samo co getvalue
         Console.WriteLine(collection["Grzegorz"] == null); // <-- true bo nie ma takiego
                                                     // czy cos jest w kolekcji

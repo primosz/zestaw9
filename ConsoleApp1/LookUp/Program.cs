@@ -20,14 +20,18 @@ namespace LookUp
                                                  new Samochod { Marka = "Volkswagen", Silnik = 1.6, KM = 98 },
                                                  new Samochod { Marka = "Audi", Silnik = 6.0, KM = 312 },
                                                  new Samochod { Marka = "Lamborghini", Silnik = 4.5, KM = 280},
-                                                 new Samochod { Marka = "Ferrari", Silnik = 8.2, KM = 515 } };
+                                                 new Samochod { Marka = "Atmos", Silnik = 4.5, KM = 280},
+                                                 new Samochod { Marka = "Lanos", Silnik = 4.5, KM = 280},
+                                                 new Samochod { Marka = "Fiesta", Silnik = 4.5, KM = 280},
+                                                 new Samochod { Marka = "Ferrari", Silnik = 8.2, KM = 515 },
+            new Samochod { Marka = "Auris", Silnik = 8.2, KM = 515 }};
 
      
-            Lookup<char, string> lookup = (Lookup<char, string>)packages.ToLookup(p => Convert.ToChar(p.Marka.Substring(0, 1)),
+            Lookup<string, string> lookup = (Lookup<string, string>)packages.ToLookup(p => (p.Marka.Substring(0, 3)),
                                                             p => p.Marka + " " + p.Silnik);
 
           
-            foreach (IGrouping<char, string> grupaAut in lookup)
+            foreach (IGrouping<string, string> grupaAut in lookup)
             {
                
                 Console.WriteLine(grupaAut.Key);
@@ -40,15 +44,10 @@ namespace LookUp
            
             int count = lookup.Count;
             
-            IEnumerable<string> cgroup = lookup['V'];
+            IEnumerable<string> cgroup = lookup["Vo"];
 
         
-            Console.WriteLine("\nSamochody zaczynające się na 'V':");
-            foreach (string str in cgroup)
-                Console.WriteLine(str);
-
            
-            Console.WriteLine(lookup.Contains('r'));
         }
     }
 }

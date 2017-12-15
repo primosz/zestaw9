@@ -5,7 +5,7 @@ class Program
 {
     static void Main()
     {
-        // Create list with elements.
+        
         List<string> list = new List<string>();
         list.Add("Piotr");
         list.Add("Grzegorz");
@@ -17,21 +17,22 @@ class Program
         list.Add("Zbyszek");
         list.Add("Stefan");
 
-        // Created sorted set from list.
+        
         SortedSet<string> set = new SortedSet<string>(list);
 
-        // Display contents.
+      
         foreach (string val in set)
         {
             Console.WriteLine(val);
         }
         Console.WriteLine(set.Count);
        
+        //usun te, ktore zaczynaja sie na p
 
         set.RemoveWhere(element => element.StartsWith("P"));
         Console.WriteLine();
 
-        // Display contents.
+        
         foreach (string val in set)
         {
             Console.WriteLine(val);
@@ -50,10 +51,10 @@ class Program
         list.Add("a");
         list.Add("y");
 
-        // Union the two collections.
+        // dodawanie bez duplikatow
         set.UnionWith(list2);
 
-        // Enumerate.
+        // wyswietl
         foreach (string val in set)
         {
             Console.WriteLine(val);
